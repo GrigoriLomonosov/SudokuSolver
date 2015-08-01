@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import Controller.*?>
+
+<fx:root type="HBox" alignment="CENTER" prefHeight="60.0" prefWidth="570.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+      <children>
+         <HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="190.0">
+            <children>
+               <NumericTextArea fx:id="first" colNumber="0" prefHeight="60.0" prefWidth="60.0" alignment="CENTER" editable="false">
+                  <HBox.margin>
+                     <Insets />
+                  </HBox.margin>
+               </NumericTextArea>
+               <NumericTextArea fx:id="second" colNumber="1" layoutX="15.0" layoutY="10.0" prefHeight="60.0" prefWidth="60.0" alignment="CENTER" editable="false">
+               </NumericTextArea>
+               <NumericTextArea fx:id="third" colNumber="2" layoutX="105.0" layoutY="10.0" prefHeight="60.0" prefWidth="60.0" alignment="CENTER" editable="false">
+               </NumericTextArea>
+            </children>
+         </HBox>
+         <HBox alignment="CENTER" layoutX="15.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="190.0">
+            <children>
+               <NumericTextArea fx:id="fourth" colNumber="3" prefHeight="60.0" prefWidth="60.0" alignment="CENTER" editable="false">
+                  <HBox.margin>
+                     <Insets />
+                  </HBox.margin>
+               </NumericTextArea>
+               <NumericTextArea fx:id="fifth" colNumber="4" layoutX="15.0" layoutY="10.0" prefHeight="60.0" prefWidth="60.0" alignment="CENTER" editable="false">
+               </NumericTextArea>
+               <NumericTextArea fx:id="sixth" colNumber="5" layoutX="105.0" layoutY="10.0" prefHeight="60.0" prefWidth="60.0" alignment="CENTER" editable="false">
+               </NumericTextArea>
+            </children>
+         </HBox>
+         <HBox alignment="CENTER" layoutX="110.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="190.0">
+            <children>
+               <NumericTextArea fx:id="seventh" colNumber="6" prefHeight="60.0" prefWidth="60.0" alignment="CENTER" editable="false">
+                  <HBox.margin>
+                     <Insets />
+                  </HBox.margin>
+               </NumericTextArea>
+               <NumericTextArea fx:id="eight" colNumber="7" layoutX="15.0" layoutY="10.0" prefHeight="60.0" prefWidth="60.0" alignment="CENTER" editable="false">
+               </NumericTextArea>
+               <NumericTextArea fx:id="ninth" colNumber="8" layoutX="105.0" layoutY="10.0" prefHeight="60.0" prefWidth="60.0" alignment="CENTER" editable="false">
+               </NumericTextArea>
+            </children>
+         </HBox>
+      </children>
+ </fx:root>
+

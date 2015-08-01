@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<fx:root type="HBox" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="110.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="hours" alignment="CENTER" prefHeight="30.0" prefWidth="30.0" text="00">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" prefHeight="30.0" prefWidth="5.0" text=":">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="minutes" alignment="CENTER" prefHeight="30.0" prefWidth="30.0" text="00">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" prefHeight="30.0" prefWidth="5.0" text=":">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="seconds" alignment="CENTER" prefHeight="30.0" prefWidth="30.0" text="00">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+   <padding>
+      <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+   </padding>
+</fx:root>

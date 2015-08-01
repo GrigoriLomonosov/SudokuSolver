@@ -1,0 +1,28 @@
+/* 
+    Created on : 31-jul-2015, 18:13:21
+    Author     : Jeroen De Meyer
+*/
+
+.root{
+    -fx-background-color: #6F7583;
+}
+
+.PlayingField{
+    -fx-background-color: #515765;
+    -fx-background-radius: 10;
+}
+
+.StopWatch{
+    -fx-background-color: #515765;
+    -fx-background-radius: 5;
+    
+}
+
+.StopWatch .label{
+    -fx-text-fill: whitesmoke;
+}
+
+.ControlPanel{
+    -fx-background-color: #515765;
+    -fx-background-radius: 10;
+}

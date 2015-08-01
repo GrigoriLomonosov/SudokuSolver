@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import Controller.PlayingField?> 
+<?import Controller.ControlPanel?>
+<?import sudokusolver.Model.*?>
+<?import View.*?>
+<?import java.net.URL?>
+
+<BorderPane styleClass="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <fx:define>
+        <Model fx:id="model"/>
+    </fx:define>
+    <center>
+      <PlayingField styleClass="PlayingField" model="$model" prefHeight="600.0" prefWidth="600.0" BorderPane.alignment="CENTER"/>
+    </center>
+   <right>
+        <VBox alignment="CENTER" spacing="20.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="250.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+            <children>
+                <StopWatch styleClass="StopWatch" model="$model" prefHeight="40" prefWidth="110.0" BorderPane.alignment="CENTER" />
+                <ControlPanel styleClass="ControlPanel" model="$model" prefHeight="100.0" prefWidth="250.0" BorderPane.alignment="CENTER" />
+            </children>
+        </VBox>  
+   </right>
+   <stylesheets>
+    <URL value="@/resources/mainStyle.css" />
+  </stylesheets>
+</BorderPane>

@@ -1,2 +1,4 @@
 # SudSolverUI
-SudokuSolver with UserInterface
+
+
+Everything is implemented with a javaFX UI.
